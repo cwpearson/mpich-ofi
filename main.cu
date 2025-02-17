@@ -152,7 +152,7 @@ void run_test(int num_elements, int alignment, bool use_ssend) {
 
 template<typename Scalar>
 void run_test() {
-  const int alignment = 128;
+  const int alignment = 0;
   
   for (size_t _ : {0,1,2}) {
     for (size_t n : {113, 16, 8, 4, 2, 1}) {
